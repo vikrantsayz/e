@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <!-- School building -->
+  <path android:fillColor="#FFFFFF" android:pathData="M20,72 L88,72 L88,44 L54,28 L20,44 Z"/>
+  <path android:fillColor="#E3F2FD" android:pathData="M54,28 L88,44 L88,72 L54,72 Z"/>
+  <!-- Door -->
+  <path android:fillColor="#1565C0" android:pathData="M44,72 L44,55 Q44,51 48,51 L60,51 Q64,51 64,55 L64,72 Z"/>
+  <!-- Windows -->
+  <rect android:fillColor="#1565C0" android:x="24" android:y="49" android:width="14" android:height="13" android:rx="2"/>
+  <rect android:fillColor="#1565C0" android:x="70" android:y="49" android:width="14" android:height="13" android:rx="2"/>
+  <!-- Flag -->
+  <path android:fillColor="#FFA000" android:pathData="M53,17 L53,28" android:strokeColor="#FFA000" android:strokeWidth="2.5"/>
+  <path android:fillColor="#FFA000" android:pathData="M53,17 L63,21 L53,25 Z"/>
+  <!-- Base -->
+  <path android:fillColor="#E3F2FD" android:pathData="M15,72 L93,72 L93,77 L15,77 Z"/>
+</vector>

@@ -1,0 +1,2 @@
+-keep class com.vkrnt.edumanage.** { *; }
+-keepattributes *Annotation*

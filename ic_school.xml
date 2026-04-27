@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <!-- White circle background -->
+  <path android:fillColor="#FFFFFF" android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0"/>
+  <!-- School building -->
+  <path android:fillColor="#1565C0" android:pathData="M20,72 L88,72 L88,44 L54,28 L20,44 Z"/>
+  <!-- Roof triangle highlight -->
+  <path android:fillColor="#0D47A1" android:pathData="M54,28 L88,44 L88,40 L54,24 Z"/>
+  <!-- Door -->
+  <path android:fillColor="#FFFFFF" android:pathData="M45,72 L45,56 Q45,52 49,52 L59,52 Q63,52 63,56 L63,72 Z"/>
+  <path android:fillColor="#E3F2FD" android:pathData="M45,72 L45,56 Q45,52 49,52 L54,52 L54,72 Z"/>
+  <!-- Windows left -->
+  <rect android:fillColor="#FFFFFF" android:x="26" android:y="50" android:width="14" android:height="12" android:rx="2"/>
+  <!-- Windows right -->
+  <rect android:fillColor="#FFFFFF" android:x="68" android:y="50" android:width="14" android:height="12" android:rx="2"/>
+  <!-- Flag pole -->
+  <path android:fillColor="#FFA000" android:pathData="M54,18 L54,28" android:strokeColor="#FFA000" android:strokeWidth="2"/>
+  <!-- Flag -->
+  <path android:fillColor="#FFA000" android:pathData="M54,18 L62,21 L54,24 Z"/>
+  <!-- Base line -->
+  <path android:fillColor="#0D47A1" android:pathData="M16,72 L92,72 L92,76 L16,76 Z"/>
+</vector>
