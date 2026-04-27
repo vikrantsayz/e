@@ -15,7 +15,7 @@ die() { echo; echo "$*"; echo; exit 1; } >&2
 APP_HOME=$(cd "$(dirname "$0")" && pwd)
 APP_NAME="Gradle"
 APP_BASE_NAME="${0##*/}"
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+DEFAULT_JVM_OPTS="-Xmx64m -Xms64m"
 CLASSPATH="$APP_HOME/gradle/wrapper/gradle-wrapper.jar"
 
 MAX_FD=maximum
